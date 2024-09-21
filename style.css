@@ -1,0 +1,47 @@
+#head{
+    font-family: "Permanet Marker",cursive;
+    text-align: center;
+}
+#hat{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    width:225px;
+    margin:auto;
+}
+
+.boxx{
+    height:75px;
+    width:75px;
+    
+    font-size: 50px;
+    text-align: center;
+    cursor:pointer;
+}
+button{
+    margin:10px;
+    font-size: 16px;
+}
+
+.boxx[ci="0"]{
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+.boxx[ci="2"]{
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+}
+.boxx[ci="8"]{
+    border-left: 2px solid;
+    border-top: 2px solid;
+    
+}
+.boxx[ci="6"]{
+    border-right: 2px solid;
+    border-top: 2px solid;
+    
+}
+.boxx[ci="4"]{
+    border: 2px solid;
+    
+    
+}
